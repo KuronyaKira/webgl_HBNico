@@ -31,3 +31,8 @@ button:hover {
 div{
     margin: 5px;
 }
+
+.right{
+    float: right;
+    margin-right: 100px;
+}
