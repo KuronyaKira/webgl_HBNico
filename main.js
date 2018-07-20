@@ -12,8 +12,9 @@ function start() {
 
     player.loadDataFromURL("data/emote_logo_d2.emtbytes");
 
-    player.loadDataFromURL("data/hbにこ.emtbytes");
+    player.loadDataFromURL("data/hbにこにー.emtbytes");
     player.diffTimelineSlot1 = '差分用_waiting_loop2';
+    player.diffTimelineSlot2 = '腕にっこにー';
 
     // set chara scale
     player.scale = 0.4;
