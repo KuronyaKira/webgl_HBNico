@@ -27,3 +27,7 @@ button:hover {
     background: #ffb3ff;
     color: white;
 }
+
+div{
+    margin: 5px;
+}

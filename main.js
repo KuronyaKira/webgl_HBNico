@@ -15,6 +15,7 @@ function start() {
     player.loadDataFromURL("data/hbにこにー.emtbytes");
     player.diffTimelineSlot1 = '差分用_waiting_loop2';
     player.diffTimelineSlot2 = '腕普通';
+    player.diffTimelineSlot2 = '';
 
     // set chara scale
     player.scale = 0.4;
@@ -34,5 +35,14 @@ function face(btnNo) {
         player.mainTimelineLabel = 'sample_楽00';
     } else if (btnNo == 5) {
         player.mainTimelineLabel = 'sample_驚01';
+    }
+}
+
+
+function pose(btnNo) {
+    if (btnNo == 1) {
+        player.diffTimelineSlot2 = '腕普通';
+    } else if (btnNo == 2) {
+        player.diffTimelineSlot2 = '腕にっこにー';
     }
 }
