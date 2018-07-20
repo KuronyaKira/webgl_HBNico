@@ -14,7 +14,7 @@ function start() {
 
     player.loadDataFromURL("data/hbにこにー.emtbytes");
     player.diffTimelineSlot1 = '差分用_waiting_loop2';
-    player.diffTimelineSlot2 = '腕にっこにー';
+    player.diffTimelineSlot2 = '腕普通';
 
     // set chara scale
     player.scale = 0.4;
