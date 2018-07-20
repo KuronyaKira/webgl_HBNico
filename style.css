@@ -5,11 +5,7 @@ main{
 }
 
 canvas{
-  background-color   : #ffccff;
-  background-image   : radial-gradient(#ffffff 19%, transparent 21%),
-                       radial-gradient(#ffffff 19%, transparent 21%);
-  background-position: 0 0, 30px 30px;
-  background-size    : 60px 60px;
+  background-image: url("patter.png")
 }
 
 button {
