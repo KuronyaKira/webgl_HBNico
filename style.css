@@ -5,6 +5,10 @@ main{
     font-family: 'Josefin Slab', serif;
 }
 
+footer{
+    text-align : center;
+}
+
 h1{
     color: #913369;
 }
