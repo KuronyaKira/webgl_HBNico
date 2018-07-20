@@ -2,8 +2,12 @@ main{
     width : 700px;
     margin-left : auto;
     margin-right : auto;
+    font-family: 'Josefin Slab', serif;
 }
 
+h1{
+    color: #913369;
+}
 canvas{
   background-image: url("patter.png")
 }
